@@ -9,23 +9,43 @@
 
 <url>
   <loc>https://negrospisowifi.com/</loc>
-  <lastmod>2019-01-04T16:13:35+00:00</lastmod>
+  <lastmod>2019-01-09T14:04:37+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://negrospisowifi.com/blog/</loc>
+  <lastmod>2019-01-09T14:04:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://negrospisowifi.com/videos.html</loc>
-  <lastmod>2019-01-04T16:15:07+00:00</lastmod>
+  <lastmod>2019-01-09T14:04:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://negrospisowifi.com/faq.html</loc>
-  <lastmod>2019-01-04T16:15:07+00:00</lastmod>
+  <lastmod>2019-01-09T14:04:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://negrospisowifi.com/index.html</loc>
-  <lastmod>2019-01-04T16:13:35+00:00</lastmod>
+  <loc>https://negrospisowifi.com/blog/post.html</loc>
+  <lastmod>2019-01-09T13:48:01+00:00</lastmod>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://negrospisowifi.com/blog/post1.html</loc>
+  <lastmod>2019-01-09T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://negrospisowifi.com/index.html</loc>
+  <lastmod>2019-01-09T14:04:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://negrospisowifi.com/blog/index.html</loc>
+  <lastmod>2019-01-09T14:04:37+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 
 
