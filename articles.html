@@ -21,7 +21,7 @@
 
 
 
-  <title>Piso Wifi Videos</title>
+  <title>Useful Articles</title>
 
   <!-- css -->
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -70,7 +70,7 @@
                  <li class="active"><a href="../">Home</a></li>
 	 
 	   <li><a href="./blog/"> Blog <span class="label label-danger"></span></a> </li>
-	   <li><a href="../articles.html"> Articles <span class="label label-danger"></span></a> </li>
+     <li><a href="../articles.html"> Articles <span class="label label-danger"></span></a> </li>
 	  <li><a href="../videos.html"> Videos <span class="label label-danger"></span></a> </li>
 	  <li><a href="https://www.facebook.com/groups/294521197818788/" target="_blank"> Community <span class="label label-danger"></span></a> </li>
     <li><a href="https://www.facebook.com/negrospisowifi/" target="_blank"> FB Page <span class="label label-danger"></span></a> </li>
@@ -91,55 +91,87 @@
 
       <div class="container">
         <div class="row text-center heading">
-          <h3><strong>Piso Wifi Videos</strong></h3>
+          <h3><strong>Articles</strong></h3>
         </div>
 
         <div class="row">
           <div class="col-md-6">
             <div class="wow fadeInLeft" data-wow-delay="0.2s">
-			<strong>How to connect?</strong>
+			<strong>Dust Maintenance</strong>
               	 <div class="features">
-              <div class="video-container">
-             <iframe width="200" height="100" src="https://www.youtube.com/embed/tI_z7vSe5U8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="text-container">
+             <img src="./img/blower.jpg" alt="" width="50%"/> <p>Maintaining a vending machine is like maintaining a computer desktop which you need clean the dust at least once a month.</p> 
+             <p><li>Open the back of the vending machine</li> 
+             <li>Point your blower to all the dust you see especially the multi coin acceptor</li> </p>
+             <p>Do this monthly and your machine will last longer and peform better.</p>
             </div>
               </div>
-			  <div class="features">
-			  <strong>16 minutes video with Advanced WiFi Vendo</strong>
-			   <div class="video-container">
-             <iframe width="932" height="524" src="https://www.youtube.com/embed/rCnr4xE9lMk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <strong>Storage Space Maintenance</strong>
+                 <div class="features">
+              <div class="text-container">
+             <img src="./img/disk.png" alt="" width="40%"/> <br><br><p>The machine comes with 16gb storage space together with the Operating system. In order to prevent a disk full, we need to at least delete the sales logs once a month.</p> 
+             <p><li>Go to your admin panel 10.0.0.1/admin </li> 
+             <li>Go to Sales Inventory</li> <li>Reset Inventory </li>  </p>
+             <p>That would clean the whole month of your sales data but it would avoid a disk full in the future.</p>
             </div>
               </div>
-			  <strong>Quick video on how it works by Joy Piso Wifi</strong>
-			  <div class="video-container">
-                <iframe width="932" height="524" src="https://www.youtube.com/embed/oNyNl_U1_BI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
+
+			
 			  <div class="features">
                 
-              </div>
-			   <div class="features">
-  
-                
+    
               </div>
             </div>
           </div>
           <div class="col-md-6">
             <div class="wow fadeInRight" data-wow-delay="0.3s">
              <div class="features">
-			<strong>Admin Access walkthrough with Joseph @JaazPisoWifi</strong>
-          <div class="video-container">
-            <iframe width="932" height="524" src="https://www.youtube.com/embed/i-ddnHsrElE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			
+             <strong>Bandwidth Management & Traffic Shaping</strong>
+                 <div class="features">
+              <div class="text-container">
+             <img src="./img/bw.png" alt="" width="40%"/> <br><br><p>Default Bandwidth Per User -Upon first connection, the user is assigned with the default bandwidth for upload and download in kilobits per second. To change the default bandwidth per user, login to web admin interface of the machine and go to Bandwidth > Speed Limter tab.</p> 
+             <p>Modifying bandwidth for individual user
+
+To change the bandwith of individual wifi user, login to web admin internface of the machine. Go to WiFi Users tab and click on Edit button beside the specific wifi user, under the Action column of the table.
+
+A modal will popup. Edit the bandwidth (upload/download) and click on Update button. No need to restart the machine after the change.</p> 
+             <p><strong>IMPORTANT</strong>: If you want to change the default bandwidth per user later, all users with default bandwidth will also update their bandwidth with the new settings EXCEPT THE ONES WHOSE BANDWIDTH ARE ALREADY EDITED. </p>
+             
+             <p>Global bandwidth limit
+
+The purpose of global bandwith is to limit the total bandwidth consumption of the machine whenever the number of users increase. This is to make sure your other business don't get affected during peak hours of wifi users.</p>
+        <ul><strong>Example scenario</strong>:
+
+        <li>Speed per user = 1024kbps upload/download</li>
+        <li>Port priority bandwidth percentage = 30%</li>
+        <li>Global limit = 5mbps upload/download</li>
+        <li>No. of wifi users = 20</li></ul>
+
+        <p>Now here's the problem:</p>
+        <p>20 x 1024kbps = ~20mbps. This is more than the allocated global bandwidth of 5mbps. To solve this, the machine will divide the global bandwidth equally to the number of wifi users so that bandwidth consumption will stay at ~5mbps.</p> 
+
+<ul>Computation: <li>Total sharable bandwith = global bandwidth limit - (30% of global bandwidth limit)</li>
+
+<li>5mbps = 5,000 kbps</li>
+
+<li>Port prioty bandwidth = 30% of 5,000 kbps = 1500kbps</li>
+
+Compute speed per user:
+
+(5000 kbps - 1500 kbps) / 20 users = ~175 kbps per user</ul>
             </div>
               </div>
-			  <strong>Full demo by Share8link</strong>
+			  <strong></strong>
               <div class="features">
                  <div class="video-container">
-            <iframe width="932" height="524" src="https://www.youtube.com/embed/p29yilngLhs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           
             </div>
               </div>
               <div class="features">
-			  <strong>How to connect by AdoPiSoft</strong>
+			  <strong></strong>
                 <div class="video-container">
-            <iframe width="932" height="524" src="https://www.youtube.com/embed/IncyVJocb1s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
             </div>
               </div>
 			  
